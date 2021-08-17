@@ -1,0 +1,283 @@
+$name : Mining Generator
+$description : a mining generator. new update,Heavy Mining,now common ores have weight and cost!
+$amount : 10
+$button : Mine!
+$author : Gabie.
+$picture : https://cdn.discordapp.com/attachments/460384774234832897/876921850180014170/unknown.png
+ 
+$weight
+[10-20] pounds {action:[20-40] dollars}
+[21-30] {40%} pounds {action:[42-60] dollars}
+[31-50] {20%} pounds {action:[62-100] dollars}
+ONE FUCKING HUNDRED POUNDS{0.0000000000000000001%} {action:TWO FUCKING HUNDRED DOLLARS}
+MORE THAN THE ENTIRE FUCKING UNIVERSE {0.0000000000000000000000000000000000001%} {action:ALL THE MONEY IN THE FUCKING WORLD}
+ 
+$rareweight
+[10-20] pounds {action:[40-80] dollars}
+[21-30] {40%} pounds {action:[84-120] dollars}
+[31-50] {20%} pounds {action:[124-200] dollars}
+ONE FUCKING HUNDRED POUNDS{0.0000000000000000001%} {action:FOUR FUCKING HUNDRED DOLLARS}
+MORE THAN THE ENTIRE FUCKING UNIVERSE {0.0000000000000000000000000000000000001%} {action:ALL THE MONEY IN THE FUCKING UNIVERSE}
+ 
+$ores
+sulfur
+iron
+lead
+copper
+rock
+diorite
+dirt
+nickel
+steel
+zinc {30%}
+aluminum {20%}
+pebble {20%}
+ 
+$rare ores
+<i> ★ANTIMATTER★ </i> {30%}
+gold
+platinum
+quartz
+<i> ★diamond★ </i> {30%}
+emerald
+amethyst
+ruby
+opal
+<i> ★uranium★ </i> {30%}
+cinnabar
+bismuth
+galaxite
+hematite
+jasper
+malachite
+zircon
+<i> ★netherite★ </i> {30%}
+<i> ★enderite★ </i> {30%}
+<i> ★cookite★ </i> {30%}
+selenite
+<i> ★kryptonite★ </i> {20%}
+palladium
+cobalt
+titanite
+iodite
+ 
+$ore prefix
+dirty
+★pure★ {30%} 
+impure
+★dense★ {30%}
+light
+hard
+small
+ 
+$rare ore prefix
+★★somehow soft★★ {10%}
+tasty
+★cursed★ {30%}
+★gamer'd★ {30%}
+warm
+big
+shadow
+★proton-emitting★ {30%}
+ 
+//These ores are for the Blood Moon.
+ 
+$blood ores
+unholytite
+★demonicite-(Ce)★ {30%}
+HELLium
+sufferion
+demontoe
+ 
+$blood prefix
+cursed
+shadow
+Suffering soul
+Devil's Treat
+★Perishing★ {30%}
+ 
+$monsters
+Zombies
+Skeletons
+Creepers
+Spiders
+Spider Jockeys {30%}
+Endermen
+ 
+$monster prefix
+Powerful
+Fast
+Tank
+Explosive
+★Unholy★ {20%}
+★Mini-Boss★ {10%}
+★★Boss★★ {1%}
+ 
+$HowMany
+[2-30]
+way too much {20%}
+ 
+ 
+$>Never Die
+You found [HowMany] [ore prefix] [ores],they weigh [weight,#heavy],and they cost [#heavy,as action].
+<b> <big> You found nothing today. {5%}
+<b> <big> You took a break from mining today. {10%}
+<b> <big> You found [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<b> You found [HowMany] [ore prefix] [ores] close to lava today! {10%}
+<h1> You found [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] close to lava,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {2.5%}
+<h1> You found [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] close to lava,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {0.25%}
+<h3> You found a mineshaft. {1%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {2.5%}
+<h3> Congrats Shift,you got the rarest thing in 1.8.6. {0.75%}
+<h2> You almost die due to lava,but find [HowMany] [ore prefix] [ores] nearby,they weigh [weight,#heavy],and they cost [#heavy,as action]. {15%}
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] nearby,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<b> <i> You found [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] Behind it there is [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action]. {5%}
+<b> <i> <h2> You found an acient temple,you found various [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action], along with [2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action],[2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action] and [2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<h3> <i> <h2> The Blood Moon has started,the prophecy says you will survive. {2.5%}
+ 
+ 
+$>Blood Moon
+<h1> Wip. {20%}
+<b> <big> You found nothing today. {5%}
+<b> <big> You took a break from mining today. {10%}
+<i> <h1> You find yourself in the absence of anything,a simple black void of pure darkness and the escense of night,you,are lost in time. {0.2%}
+<b> <h2> OH GOD ITS LAVA- {5%}
+<h3> You found a mineshaft. {1%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {2.5%}
+<h3> Congrats Shift,you got the rarest thing in 1.8.6. {0.75%}
+<b> <i> <h2> You found an acient temple,you f- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA {2.5%}
+<h2> <i> You found void ores,you tried to mine them,but died,due to them imploding on their own vaccum. {5%}
+ 
+You found [HowMany] [[blood prefix] [blood ores]|[blood ores]] today!
+You found [HowMany] [[blood prefix] [blood ores]|[blood ores]],and [HowMany] [[blood prefix] [blood ores]|[blood ores]] today! {20%}
+You found [HowMany] [[blood prefix] [blood ores]|[blood ores]],[HowMany] [[blood prefix] [blood ores]|[blood ores]],and [HowMany] [[blood prefix] [blood ores]|[blood ores]] today! {10%}
+ 
+<b> You found [HowMany] [[blood prefix] [blood ores]|[blood ores]] close to lava today! {20%}
+<b> You found [HowMany] [[blood prefix] [blood ores]|[blood ores]],and [HowMany] [[blood prefix] [blood ores]|[blood ores]] close to lava today! {6%}
+<b> You found [HowMany] [[blood prefix] [blood ores]|[blood ores]],[HowMany] [[blood prefix] [blood ores]|[blood ores]],and [HowMany] [[blood prefix] [blood ores]|[blood ores]] close to lava today! {2%}
+ 
+<h2> You almost die due to lava,but find [HowMany] [[blood prefix] [blood ores]|[blood ores]] nearby. {30%}
+<h2> You almost die due to lava,but find [HowMany] [[blood prefix] [blood ores]|[blood ores]],and [HowMany] [[blood prefix] [blood ores]|[blood ores]] nearby. {6%}
+<h2> You almost die due to lava,but find [HowMany] [[blood prefix] [blood ores]|[blood ores]],[HowMany] [[blood prefix] [blood ores]|[blood ores]],and [HowMany] [[blood prefix] [blood ores]|[blood ores]] nearby. {6%}
+ 
+<b> <i> You found [HowMany] [[blood prefix] [blood ores]|[blood ores]] Behind [HowMany] [[blood prefix] [blood ores]|[blood ores]] today! {5%}
+<h2> <i> <b> The Devil has found you,he wont forgive. {5%}
+ 
+<h3> <h2> You almost died from that barrage of [5-50] [[monster prefix] [monsters]|[monsters]] and [10-20] [[monster prefix] [monsters]|[monsters]] ,but found [HowMany] [[blood prefix] [blood ores]|[blood ores]]! {10%}
+ 
+ 
+$>Unlucky Bastard
+You found [HowMany] [ore prefix] [ores],they weigh [weight,#heavy],and they cost [#heavy,as action].
+<b> <big> You found nothing today. {2.5%}
+<b> <big> You took a break from mining today. {5%}
+<b> <big> You found [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {2.5%}
+<i> <h1> You find yourself in the absence of anything,a simple black void of pure darkness and the escense of night,you,are lost in time. {0.05%}
+<b> <h2> OH GOD ITS LAVA- {1.25%}
+<b> You found [HowMany] [ore prefix] [ores] close to lava today! {5%}
+<h1> You found [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] close to lava,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {1.25%}
+<h3> You found a mineshaft. {0.5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {2.5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {1.25%}
+<h3> Congrats Shift,you got the rarest thing in 1.8.6. {0.375%}
+<h2> You almost die due to lava,but find [HowMany] [ore prefix] [ores] nearby,they weigh [weight,#heavy],and they cost [#heavy,as action]. {7.5%}
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] nearby,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {2.5%}
+<b> <i> You found [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] Behind it there is [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action]. {2.5%}
+<b> <i> <h2> You found an acient temple,you [f- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|found various [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action], along with [2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action],[2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action] and [2-15] [rare ore prefix] [rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {2.5%}
+<h2> <i> You found void ores,you tried to mine them,but died,due to them imploding on their own vaccum. {1.25%}
+<h3> <i> <h2> The Blood Moon has started,the prophecy says you will [survive|die]. {1.25%}
+ 
+ 
+$>Lucky Bastard
+You found [HowMany] [[rare ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action].
+You found [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],and [HowMany] [[rare ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action]. {40%}
+You found [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],[HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],and [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action].,they weigh [weight,#heavy],and they cost [#heavy,as action]. {20%}
+ 
+<b> <big> You found nothing today. {2.5%}
+<b> <big> You took a break from mining today. {7.5%}
+ 
+<b> <big> You found [2-15] [[rare ore prefix] [rare ores]|[rare ores]] today! {10%}
+ 
+<i> <h1> You find yourself in the absence of anything,a simple black void of pure darkness and the escense of night,you,are lost in time. {0.2%}
+<b> <h2> OH GOD ITS LAVA- {5%}
+ 
+<b> You found [HowMany] [[rare ore prefix] [ores]|[ores]] close to lava,they weigh [weight,#heavy],and they cost [#heavy,as action]. {20%}
+<b> You found [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],and [HowMany] [[rare ore prefix] [ores]|[ores]] close to lava,they weigh [weight,#heavy],and they cost [#heavy,as action]. {6%}
+<b> You found [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],[HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],and [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] close to lava. {2%}
+ 
+<h1> You found [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] close to lava,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+ 
+<h3> You found a mineshaft. {2%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {10%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {5%}
+<h3> Congrats Shift,you got the rarest thing in 1.8.6. {1.5%}
+ 
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [ores]|[ores]] nearby,they weigh [weight,#heavy],and they cost [#heavy,as action]. {30%}
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],and [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] nearby. {6%}
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],[HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action],and [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] nearby. {6%}
+ 
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] nearby,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {10%}
+<b> <i> You found [HowMany] [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] Behind it there is [HowMany] [[rare ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action]. {10%}
+<b> <i> <h2> You found an acient temple,you found various [[rare ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action], along with [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action,[2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action] and [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<h2> <i> You found void ores,you tried to mine them,but died,due to them imploding on their own vaccum. {5%}
+<h3> <i> <h2> The Blood Moon has started,the prophecy says you will [survive|die]. {5%}
+ 
+ 
+$>More Lava
+You found [HowMany] [ore prefix] [ores] ,they weigh [weight,#heavy],and they cost [#heavy,as action].
+<b> <big> You found nothing today. {5%}
+<b> <big> You took a break from mining today. {10%}
+<b> <big> You found [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<i> <h1> You find yourself in the absence of anything,a simple black void of pure darkness and the escense of night,you,are lost in time. {0.1%}
+<b> <h2> OH GOD ITS LAVA- {5%}
+<b> You found [HowMany] [ore prefix] [ores] close to lava, they weigh [weight,#heavy],and they cost [#heavy,as action]. {20%}
+<h1> You found [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] close to lava, they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<h3> You found a mineshaft. {1%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {2.5%}
+<h2> You almost die due to lava,but find [HowMany] [ore prefix] [ores] ,they weigh [weight,#heavy],and they cost [#heavy,as action],nearby. {30%}
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] nearby,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {10%}
+<b> <i> You found [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] Behind it there is some [HowMany] [[ore prefix] [ores]|[ores]] today! {5%}
+<b> <i> <h2> You found an acient temple,you [f- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|found various [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action], along with [2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action],[2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action] and [2-15] [rare ore prefix] [rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<h2> <i> You found void ores,you tried to mine them,but died,due to them imploding on their own vaccum. {2.5%}
+<h3> <i> <h2> The Blood Moon has started,the prophecy says you will [survive|die]. {2.5%}
+ 
+ 
+ 
+$>No Lava
+You found [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action].
+You found [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] ,and [HowMany] [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action]. {20%}
+You found [HowMany] [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action] ,[HowMany] [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action] ,and [HowMany] [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action]. {10%}
+<b> <big> You found nothing today. {5%}
+<b> <big> You took a break from mining today. {10%}
+<b> <big> You found [15-30] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action] {0.5%}
+<b> <big> You found [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action] {5%}
+<i> <h1> You find yourself in the absence of anything,a simple black void of pure darkness and the escense of night,you,are lost in time. {0.1%}
+<h3> You found a mineshaft. {1%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {2.5%}
+<b> <i> You found [HowMany] [[ore prefix] [ores]|[ores]]],they weigh [weight,#heavy],and they cost [#heavy,as action] ,Behind it there is some [HowMany] [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action]. {5%}
+<b> <i> <h2> You found an acient temple,you [f- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|found various [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action] , along with [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action],[2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action] and [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action].] {2.5%}
+<h2> <i> You found void ores,you tried to mine them,but died,due to them imploding on their own vaccum. {2.5%}
+<h3> <i> <h2> The Blood Moon has started,the prophecy says you will [survive|die]. {2.5%}
+ 
+ 
+$>Normal
+You found [HowMany] [ore prefix] [ores],they weigh [weight,#heavy],and they cost [#heavy,as action].
+<b> <big> You found nothing today. {5%}
+<b> <big> You took a break from mining today. {10%}
+<b> <big> You found [2-15] [[rare ore prefix] [rare ores]|[rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<i> <h1> You find yourself in the absence of anything,a simple black void of pure darkness and the escense of night,you,are lost in time. {0.1%}
+<b> <h2> OH GOD ITS LAVA- {2.5%}
+<b> You found [HowMany] [ore prefix] [ores],they weigh [weight,#heavy],and they cost [#heavy,as action],they were close to lava. {10%}
+<h1> You found [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] close to lava,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {2.5%}
+<h3> You found a mineshaft. {1%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit. {5%}
+<h2> <b> <i> You decide to polish your trusty pickaxe a bit more. {2.5%}
+<h2> You almost die due to lava,but find [HowMany] [ore prefix] [ores] nearby,they weigh [weight,#heavy],and they cost [#heavy,as action]. {15%}
+<h2> You almost die due to lava,but find [HowMany] [[rare ore prefix] [rare ores]|[rare ores]] nearby,they weigh [rareweight,#heavy],and they cost [#heavy,as action]. {5%}
+<b> <i> You found [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action] and Behind it [HowMany] [[ore prefix] [ores]|[ores]],they weigh [weight,#heavy],and they cost [#heavy,as action]. {5%}
+<b> <i> <h2> You found an acient temple,you [f- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|found various [[ore prefix] [ores]|[ores]] ,they weigh [weight,#heavy],and they cost [#heavy,as action], along with [2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action],[2-15] [rare ore prefix] [rare ores],they weigh [rareweight,#heavy],and they cost [#heavy,as action] and [2-15] [rare ore prefix] [rare ores]],they weigh [rareweight,#heavy],and they cost [#heavy,as action].] {5%}
+<h2> <i> You found void ores,you tried to mine them,but died,due to them imploding on their own vaccum. {2.5%}
+<h3> <i> <h2> The Blood Moon has started,the prophecy says you will [survive|die]. {2.5%}
